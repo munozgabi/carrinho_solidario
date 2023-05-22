@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo img{
+    height: 90px;
+    width: 240px;
+    margin: 10px
+}
+
+  .nav{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #F48C1C;
+      height: 50px;
+      color: white;
+  }
+
+  .nav a{
+      color: white;
+  }
+
+
+  /* ----------------- */
+
+  .main{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-color: #044C8C;
+  }
+
+  .main-signup{
+    width: 400px;
+    background: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .main-signup .title-login{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .main-signup.main .slide-controls{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    justify-content: space-around;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+  }
+
+  .main-signup .form-container{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .form-container .form-signup{
+    display: flex;
+    width: 200%;
+  }
+
+  .form-container .form-signup form{
+    width: 50%;
+    transition: all 0.6s ease;
+  }
+
+  .form-signup form .field{
+    margin-top: 20px;
+  }
+
+  .form-signup form .field input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    font-size: 17px;
+    transition: all 0.3s ease;
+  }
+
+  .form-signup form .field input:focus{
+    border-color: #044C8C;
+  }
+
+  .form-signup form .field input::placeholder{
+    color: gray;
+    transition: all 0.3s ease;
+  }
+
+  form .field input:focus::placeholder{
+    color: #044C8C;
+  }
+ 
+  .form-signup form .signup-link{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .form-signup form .signup-link a{
+    color: #1a75ff;
+    text-decoration: none;
+  }
+
+  .form-signup form .signup-link a:hover{
+    text-decoration: underline;
+  }
+
+  form .field-btn{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  form .field-btn input{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: #F48C1C;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  form .field-btn input:hover{
+    background-color: #cc6f0c;
+  }
